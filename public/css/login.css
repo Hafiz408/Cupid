@@ -3,14 +3,14 @@ body, html {
     position: relative;
     /* opacity: 0.7; */
 
-    background-image: url("bg2.jpg");
+    background-image: url("bg3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .logo{
-    color: #F56A79;
+    color: red;
     font-family: "Sacramento";
     font-weight: bolder;
     font-size: 40px;
@@ -36,7 +36,7 @@ body, html {
 }
 
 .nav-link {
-    color: #F56A79;
+    color: red;
     font-family: "Raleway";
     font-size: 1.5rem;
     font-weight: bold;
@@ -47,16 +47,24 @@ body, html {
     position: absolute;
 }
 
+.card{
+    background-color: #fff5;
+}
+
 .card-header h3{
     text-align: center;
+    font-family:"Merriweather";
+    color: red;
 } 
 
 .card-body{
     padding-bottom: 0;
+    background-color: #fff1;
 }
 
 .card-body p{
     text-align: right;
+    color: #fff8;
 }
 
 .row{
@@ -66,4 +74,23 @@ body, html {
 .btn{
     margin: 20px 0;
 }
+
+.form-control,.form-control:focus{
+    border: red 3px solid;
+    background-color: #fff1;
+}
+
+.form-control::placeholder,.form-control:focus::placeholder{
+    color: #fff9;
+}
+
+.card-body a{
+    color: red;
+}
+
+.card-body a:hover{
+    color: rgb(204, 20, 20);
+}
+
+
 
