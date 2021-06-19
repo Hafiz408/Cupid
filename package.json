@@ -1,0 +1,16 @@
+{
+  "name": "cupid",
+  "version": "1.0.0",
+  "description": "Platform where meet share their stories and meet other people.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hafiz and Sneha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0"
+  }
+}
