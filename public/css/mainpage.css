@@ -1,13 +1,15 @@
 body{
   font-family: "Montserrat";
 }
+
 #title{
   background-color: #fff5fd;
   color: #022e57;
 }
+
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   line-height: 1.5;
 }
@@ -100,6 +102,27 @@ p{
 .container-fluid{
   padding: 3% 15%;
 }
+
+.header{
+  color: rgb(212, 121, 167);
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem; /* 16=1em=100% */
+  line-height: 1.5;
+}
+
+.logo-pic{
+  padding: 40px 60px 30px;
+}
+
+.quote{
+  color: rgb(179, 97, 138);
+  padding: 70px 40px 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
 /* Navigation Bar */
 .logo{
   color: #F56A79;
@@ -144,25 +167,6 @@ p{
 
 .container-fluid{
   padding: 7% 15%;
-}
-
-#iphone-pic{
-  width: 70%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 20%;
-}
-
-@media (max-width: 1028px)
-{
-  #title{
-      text-align: center;
-  }
-
-  #iphone-pic{
-      position: static;
-      transform: rotate(0);
-  }
 }
 
 h3{
@@ -259,7 +263,7 @@ h2{
 }
 
 .ft{
-  padding: 7% 7% 2%;
+  padding: 3% 7% 0;
 }
 
 .ft-p{
@@ -269,5 +273,10 @@ h2{
 }
 
 .footer-icon{
-  padding: 7px;
+  font-size: 25px;
+  padding: 7px 10px;
+}
+
+.footer-icon:hover{
+  color: #8f8f8f;
 }
