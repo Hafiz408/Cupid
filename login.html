@@ -26,7 +26,7 @@
 
         <nav class="navbar  navbar-expand-lg ">
             <div class="container">
-                <form id="home" action="/" method="post">
+                <form id="home" action="/" method="GET">
                     <a class="navbar-brand" href="#" onclick="home()">
                         <img src="images/cupid.png" alt="" class="logo">
                         <p class="logo">Cupid</p>
@@ -35,35 +35,35 @@
             </div>
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <form id="link" action="/signup" method="post">
+                    <form id="link" action="/register" method="GET">
                         <a class="nav-link" href="#" onclick="myFunction()">Register</a>
                     </form>
                 </li>
               </ul>
         </nav>
 
-        <form action="">
+        <form action="/login" method="POST">
             <div class="container-fluid">
                 <div class="card">
                     <div class="card-header">
                         <h3>Login</h3>
                     </div>
                     <div class="card-body">
-                        <div class="row">
-                            <div class="col">
-                              <input type="text" class="form-control" placeholder="Username" >
+                            <div class="row">
+                                <div class="col">
+                                  <input type="text" class="form-control" placeholder="Mail ID" name="username" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <input type="password" class="form-control" placeholder="Password">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="password" class="form-control" placeholder="Password" name="password" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="d-grid col-6 mx-auto">
-                                <button  type="button" class="btn btn-danger">Login</button>
-                            </div>
-                        </div>
+                            <div class="row">
+                                <div class="d-grid col-6 mx-auto">
+                                    <button  type="submit" class="btn btn-danger">Login</button>
+                                </div>
+                            </div>                  
                         <p>*To create an account, <a href="#" onclick="myFunction()">register.</a></p>
                     </div>
                 </div>

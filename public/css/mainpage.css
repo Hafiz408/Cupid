@@ -123,6 +123,16 @@ p{
   line-height: 1.5;
 }
 
+.btn-lg{
+  padding: auto;
+  margin: 20px 10px 20px 30px;
+}
+
+.btn-dark:hover{
+  background-color:white;
+  color: black;
+}
+
 /* Navigation Bar */
 .logo{
   color: #F56A79;

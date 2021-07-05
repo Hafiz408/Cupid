@@ -18,6 +18,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+    <link rel="stylesheet" href="popupS.css">
     <link rel="stylesheet" href="css/sign_up.css">
 </head>
 <body>
@@ -25,7 +26,7 @@
     <div >
         <nav class="navbar  navbar-expand-lg ">
             <div class="container">
-                <form id="home" action="/" method="post">
+                <form id="home" action="/" method="GET">
                     <a class="navbar-brand" href="#" onclick="home()">
                         <img src="images/cupid.png" alt="cupid pic" class="logo">
                         <p class="logo">Cupid</p>
@@ -34,14 +35,14 @@
             </div>
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <form id="link" action="/login" method="post">
+                    <form id="link" action="/login" method="GET">
                         <a class="nav-link" href="#" onclick="myFunction()">Login</a>
                     </form>
                 </li>
               </ul>
         </nav>
 
-        <form action="/" method="POST">
+        <form action="/register" method="POST" id="register">
             <div class="container-fluid">
                 <div class="card">
                     <div class="card-header">
@@ -50,29 +51,29 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col">
-                              <input type="text" class="form-control" placeholder="First name" >
+                              <input type="text" class="form-control" placeholder="First name" required>
                             </div>
                             <div class="col">
-                              <input type="text" class="form-control" placeholder="Last name" >
+                              <input type="text" class="form-control" placeholder="Last name" required>
                             </div>
                           </div>
                           <div class="row">
                             <div class="col">
-                                <input type="email" class="form-control" placeholder="Mail ID">
+                                <input type="email" class="form-control" placeholder="Mail ID" name="username" required>
                             </div>
                           </div>
                           <div class="row">
                               <div class="col">
-                                  <input type="password" class="form-control" placeholder="Password">
+                                  <input type="password" class="form-control" placeholder="Password" name="password" required>
                               </div>
                           </div>
                           <div class="row">
                                 <div class="col">
-                                    <input type="password" class="form-control" placeholder="Re-type Password">
+                                    <input type="password" class="form-control" placeholder="Re-type Password"  name="password2" required>
                                 </div>
                             <div class="row">
                                 <div class="d-grid col-6 mx-auto">
-                                    <button  type="button" class="btn btn-success">Sign Up</button>
+                                    <button  type="button" class="btn btn-success" onclick="register()">Sign Up</button>
                                 </div>
                             </div>
                         </div>
@@ -90,6 +91,17 @@
 
         function home(){
             document.getElementById("home").submit();
+        }
+
+        function register(){
+            const form = document.getElementById("register");
+            if(form.elements['password'].value === form.elements['password2'].value){
+                form.submit(); 
+            }else{
+                alert("Password doesn't match !!");
+                form.elements['password'].value = "";
+                form.elements['password2'].value = "";
+            }
         }
     </script>
 </body>
