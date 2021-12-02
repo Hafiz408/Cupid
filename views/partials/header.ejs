@@ -4,6 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Cupid</title>
+
+  <script src="https://kit.fontawesome.com/fd602691c4.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+  </style>
+
   <link rel="icon" href="cupid-favicon.png">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,3 +29,38 @@
 </head>
 
 <body>
+
+  <section id="title">
+    <div class="container-fluid">
+   
+      <!-- Nav Bar -->
+
+      <nav class="navbar  navbar-expand-ms fixed-top">
+
+        <div class="navbar-nav sm-auto" id="add">
+          <a class="nav-link" href="#" onclick=""><i class="far fa-plus-square"></i></a>
+        </div>
+
+        <div class="container">
+          <a class="navbar-brand" href="#top">
+            <img src="images/cupid.png" alt="cupid pic" class="logo">
+            <p class="logo">Cupid</p>
+          </a>
+        </div>
+
+        <ul class="navbar-nav sm-auto">
+          <li class="nav-item">
+              <form id="link" action="/login" method="GET">
+                  <a class="nav-link" href="#" onclick=""><i class="fas fa-user-alt"></i></a>
+              </form>
+              <form id="link" action="/login" method="GET">
+                <a class="nav-link" href="#" onclick=""><i class="fas fa-heart"></i></a>
+            </form>
+            <form id="link" action="/login" method="GET">
+              <a class="nav-link" href="#" onclick=""><i class="fas fa-home"></i></a>
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
