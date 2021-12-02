@@ -1,5 +1,6 @@
 body{
   font-family: "Montserrat";
+  overflow-x: hidden;
 }
 
 #title{
@@ -33,7 +34,7 @@ p{
 .top-container{
   background-color: #dff8f8;
   position: relative;
-  padding-top: 97px;
+  padding-top: 138px;
   text-align: center;
 }
 
@@ -100,7 +101,7 @@ p{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 2% 15%;
 }
 
 .header{
