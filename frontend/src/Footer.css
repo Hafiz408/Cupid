@@ -1,0 +1,17 @@
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0%;
+    background-color: #fff5fd;
+  }
+
+
+  .ft-p{
+    color: #F56A79;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 2px;
+    border-top: 1px solid #F56A79;
+  }

@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    position: relative;
+    /* opacity: 0.7; */
+
+    background-image: url("bg4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    color: greenyellow;
+    font-family: "Sacramento";
+    font-weight: bolder;
+    font-size: 40px;
+    display: inline;
+    padding: 5px;
+}
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    /* background-color: #ffffff40; */
+}
+
+.navbar a:hover, .logo:hover{
+    color: rgb(117, 196, 0);
+    background-color: #fff8;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-link {
+    color: greenyellow;
+    font-family: "Raleway";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 2% 25%;
+    position: absolute;
+}
+
+.card{
+    background-color: #fff5;
+}
+
+.card-header h3{
+    text-align: center;
+    font-family:"Merriweather";
+    color:greenyellow;
+} 
+
+.card-body{
+    padding-bottom: 0;
+    background-color: #fff1;
+}
+
+.card-body p{
+    text-align: right;
+    color: #fff8;
+}
+
+.row{
+    padding: 15px;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: rgb(144, 212, 41);
+}
+
+.btn:hover{
+    margin-top: 20px;
+    background-color: rgb(118, 173, 34);
+}
+
+.form-control,.form-control:focus{
+    border: greenyellow 3px solid;
+    background-color: #fff1;
+}
+
+.form-control::placeholder,.form-control:focus::placeholder{
+    color: #fff9;
+}
+
+.card-body a{
+    color: greenyellow;
+}
+
+.card-body a:hover{
+    color: rgb(135, 199, 38);
+}
+

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cupid/static/css/main.06c4d39f.chunk.css",
+    "main.js": "/cupid/static/js/main.00bc22b7.chunk.js",
+    "main.js.map": "/cupid/static/js/main.00bc22b7.chunk.js.map",
+    "runtime-main.js": "/cupid/static/js/runtime-main.4e0c71b9.js",
+    "runtime-main.js.map": "/cupid/static/js/runtime-main.4e0c71b9.js.map",
+    "static/js/2.46e72194.chunk.js": "/cupid/static/js/2.46e72194.chunk.js",
+    "static/js/2.46e72194.chunk.js.map": "/cupid/static/js/2.46e72194.chunk.js.map",
+    "index.html": "/cupid/index.html",
+    "static/css/main.06c4d39f.chunk.css.map": "/cupid/static/css/main.06c4d39f.chunk.css.map",
+    "static/js/2.46e72194.chunk.js.LICENSE.txt": "/cupid/static/js/2.46e72194.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e0c71b9.js",
+    "static/js/2.46e72194.chunk.js",
+    "static/css/main.06c4d39f.chunk.css",
+    "static/js/main.00bc22b7.chunk.js"
+  ]
+}

@@ -1,0 +1,97 @@
+body{
+    font-family: "Montserrat";
+  }
+  
+#title{
+    background-color: #fff5fd;
+    color: #022e57;
+    border-bottom: 1px solid #F56A79;
+  }
+  
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 0%;
+    background-color: #fff5fd;
+}
+  
+.ft-p{
+    color: #F56A79;
+    text-align: center;
+    padding: 6px;
+    padding-bottom: 2px;
+    border-top: 1px solid #F56A79;
+  }
+
+  .logo{
+    color: #F56A79;
+    font-family: "Sacramento";
+    font-weight: bolder;
+    font-size: 40px;
+    display: inline;
+    padding: 5px;
+  }
+  
+  .navbar{
+    margin: 10px;
+    padding: 0;
+    /* background-color: #ffffff40; */
+  }
+  
+  .navbar a:hover, .logo:hover{
+    color: #d45f6a;
+  }
+  
+  .nav-item {
+    padding: 0 20px;
+  }
+  
+  .nav-link {
+    color: #F56A79;
+    font-family: "Raleway";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-brand {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+  }
+
+  .body {
+      display: block;
+      margin: 10px;
+  }
+
+  .container {
+    width: 800px;
+  }
+
+  .container-fluid{
+    padding: 5% 10%;
+    padding-bottom: 0%;
+  }
+
+  #link {
+    float: right;
+  }
+
+  #add {
+    float: left;
+  }
+
+  .fas {
+      margin: auto 15px;
+      font-size: 30px;
+  }
+
+  .far {
+    margin: auto 25px;
+    font-size: 35px;
+}
