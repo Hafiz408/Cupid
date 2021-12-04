@@ -1,4 +1,5 @@
 import './Header.css';
+import pic from "./cupid.png";
 
 function Header() {
     return (
@@ -13,7 +14,7 @@ function Header() {
     
             <div class="container">
               <a class="navbar-brand" href="#top">
-                <img src="cupid.png" alt="" class="logo" />
+                <img src={pic} alt="" class="logo" />
                 <p class="logo">Cupid</p>
               </a>
             </div>

@@ -46,7 +46,7 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
 
-app.get("/", function(req, res){
+app.get("/mainpage", function(req, res){
     res.sendFile(__dirname+"/mainpage.html");
 });
 
@@ -69,7 +69,7 @@ app.get("/cupid", function(req, res){
 
 app.get("/logout", function(req, res){
   req.logout();
-  res.redirect("/");
+  res.redirect("/mainpage");
 });
 
 app.post("/register", function(req, res){

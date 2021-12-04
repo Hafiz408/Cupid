@@ -11,9 +11,6 @@ import Header from './Header';
 ReactDOM.render(
   <div>
     <Router basename={'/cupid'}>
-      {/* <Route path='/'> 
-        <h1>HOME</h1>
-      </Route> */}
         <Header />
         <App />
         <Footer />
